@@ -24,45 +24,15 @@ main {
   margin: 0;
   padding: 0;
   width: 100%;
+  opacity: 0.75;
 }
 
 .chart li {
   display: inline-block;
-  background-color: rgba(209, 236, 250, 0.75);
   width: calc(700px / 40 - 4px);
   height: 20px;
 }
 
-/* .chart {
-  display: table;
-  table-layout: fixed;
-  width: 90%;
-  max-width: 1000px;
-  height: 400px;
-  margin: 0 auto;
-  background-image: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.1) 2%,
-    rgba(0, 0, 0, 0) 2%
-  );
-  background-size: 100% 50px;
-  background-position: left top;
-  padding: 0;
+.hidden {
+  display: none !important;
 }
-.chart li {
-  position: relative;
-  display: table-cell;
-  vertical-align: bottom;
-  height: 200px;
-}
-.chart span {
-  margin: 0 1em;
-  display: block;
-  background-color: rgba(209, 236, 250, 0.75);
-  height: 20px;
-  width: 70%;
-}
-
-ul:nth-child(1) {
-  height: 50px;
-} */
